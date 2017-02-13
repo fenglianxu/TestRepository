@@ -1,0 +1,19 @@
+{
+  "name": "digitallandtitle",
+  "version": "1.0.0",
+  "description": "a ditital land tile for sale",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xufengli/TestRepository.git"
+  },
+  "author": "FenglianXu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xufengli/TestRepository/issues"
+  },
+  "homepage": "https://github.com/xufengli/TestRepository#readme"
+}

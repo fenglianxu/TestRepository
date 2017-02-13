@@ -1,0 +1,86 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/Fenglian/.nvm/versions/node/v4.6.0/bin/node',
+1 verbose cli   '/Users/Fenglian/.nvm/versions/node/v4.6.0/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@4.1.2
+3 info using node@v4.6.0
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/Users/Fenglian/dev/git/sample-applications-master/packages/getting-started/digitalPropertyNetwork',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /Users/Fenglian/.npm/digitallandtitle/1.0.0/package.tgz not in flight; packing
+9 verbose correctMkdir /Users/Fenglian/.npm correctMkdir not in flight; initializing
+10 info lifecycle digitallandtitle@1.0.0~prepublish: digitallandtitle@1.0.0
+11 silly lifecycle digitallandtitle@1.0.0~prepublish: no script for prepublish, continuing
+12 info lifecycle digitallandtitle@1.0.0~prepare: digitallandtitle@1.0.0
+13 silly lifecycle digitallandtitle@1.0.0~prepare: no script for prepare, continuing
+14 verbose tar pack [ '/Users/Fenglian/.npm/digitallandtitle/1.0.0/package.tgz',
+14 verbose tar pack   '/Users/Fenglian/dev/git/sample-applications-master/packages/getting-started/digitalPropertyNetwork' ]
+15 verbose tarball /Users/Fenglian/.npm/digitallandtitle/1.0.0/package.tgz
+16 verbose folder /Users/Fenglian/dev/git/sample-applications-master/packages/getting-started/digitalPropertyNetwork
+17 verbose addLocalTarball adding from inside cache /Users/Fenglian/.npm/digitallandtitle/1.0.0/package.tgz
+18 verbose correctMkdir /Users/Fenglian/.npm correctMkdir not in flight; initializing
+19 silly cache afterAdd digitallandtitle@1.0.0
+20 verbose afterAdd /Users/Fenglian/.npm/digitallandtitle/1.0.0/package/package.json not in flight; writing
+21 verbose correctMkdir /Users/Fenglian/.npm correctMkdir not in flight; initializing
+22 verbose afterAdd /Users/Fenglian/.npm/digitallandtitle/1.0.0/package/package.json written
+23 silly publish { name: 'digitallandtitle',
+23 silly publish   version: '1.0.0',
+23 silly publish   description: 'a ditital land tile for sale',
+23 silly publish   main: 'index.js',
+23 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+23 silly publish   repository:
+23 silly publish    { type: 'git',
+23 silly publish      url: 'git+https://github.com/xufengli/TestRepository.git' },
+23 silly publish   author: { name: 'FenglianXu' },
+23 silly publish   license: 'ISC',
+23 silly publish   bugs: { url: 'https://github.com/xufengli/TestRepository/issues' },
+23 silly publish   homepage: 'https://github.com/xufengli/TestRepository#readme',
+23 silly publish   readme: 'ERROR: No README data found!',
+23 silly publish   _id: 'digitallandtitle@1.0.0',
+23 silly publish   _shasum: 'd73b1926e632e79318945934ed3a3d750fe8ac94',
+23 silly publish   _from: '.' }
+24 info lifecycle digitallandtitle@1.0.0~prepublishOnly: digitallandtitle@1.0.0
+25 silly lifecycle digitallandtitle@1.0.0~prepublishOnly: no script for prepublishOnly, continuing
+26 verbose getPublishConfig undefined
+27 silly mapToRegistry name digitallandtitle
+28 silly mapToRegistry using default registry
+29 silly mapToRegistry registry https://registry.npmjs.org/
+30 silly mapToRegistry data Result {
+30 silly mapToRegistry   raw: 'digitallandtitle',
+30 silly mapToRegistry   scope: null,
+30 silly mapToRegistry   escapedName: 'digitallandtitle',
+30 silly mapToRegistry   name: 'digitallandtitle',
+30 silly mapToRegistry   rawSpec: '',
+30 silly mapToRegistry   spec: 'latest',
+30 silly mapToRegistry   type: 'tag' }
+31 silly mapToRegistry uri https://registry.npmjs.org/digitallandtitle
+32 verbose publish registryBase https://registry.npmjs.org/
+33 silly publish uploading /Users/Fenglian/.npm/digitallandtitle/1.0.0/package.tgz
+34 verbose stack Error: auth required for publishing
+34 verbose stack     at CachingRegistryClient.publish (/Users/Fenglian/.nvm/versions/node/v4.6.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/publish.js:30:14)
+34 verbose stack     at /Users/Fenglian/.nvm/versions/node/v4.6.0/lib/node_modules/npm/lib/publish.js:137:14
+34 verbose stack     at mapToRegistry (/Users/Fenglian/.nvm/versions/node/v4.6.0/lib/node_modules/npm/lib/utils/map-to-registry.js:62:3)
+34 verbose stack     at publish_ (/Users/Fenglian/.nvm/versions/node/v4.6.0/lib/node_modules/npm/lib/publish.js:108:3)
+34 verbose stack     at Array.<anonymous> (/Users/Fenglian/.nvm/versions/node/v4.6.0/lib/node_modules/npm/node_modules/slide/lib/bind-actor.js:15:8)
+34 verbose stack     at LOOP (/Users/Fenglian/.nvm/versions/node/v4.6.0/lib/node_modules/npm/node_modules/slide/lib/chain.js:15:14)
+34 verbose stack     at /Users/Fenglian/.nvm/versions/node/v4.6.0/lib/node_modules/npm/node_modules/slide/lib/chain.js:18:7
+34 verbose stack     at done (/Users/Fenglian/.nvm/versions/node/v4.6.0/lib/node_modules/npm/lib/utils/lifecycle.js:132:5)
+34 verbose stack     at LOOP (/Users/Fenglian/.nvm/versions/node/v4.6.0/lib/node_modules/npm/node_modules/slide/lib/chain.js:7:26)
+34 verbose stack     at /Users/Fenglian/.nvm/versions/node/v4.6.0/lib/node_modules/npm/node_modules/slide/lib/chain.js:18:7
+35 verbose cwd /Users/Fenglian/dev/git/sample-applications-master/packages/getting-started/digitalPropertyNetwork
+36 error Darwin 16.4.0
+37 error argv "/Users/Fenglian/.nvm/versions/node/v4.6.0/bin/node" "/Users/Fenglian/.nvm/versions/node/v4.6.0/bin/npm" "publish"
+38 error node v4.6.0
+39 error npm  v4.1.2
+40 error code ENEEDAUTH
+41 error need auth auth required for publishing
+42 error need auth You need to authorize this machine using `npm adduser`
+43 verbose exit [ 1, true ]
